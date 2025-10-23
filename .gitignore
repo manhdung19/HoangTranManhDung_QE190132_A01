@@ -85,27 +85,3 @@ appsettings.Local.json
 *~
 ```
 
----
-
-## 🌐 Các cách đẩy lên GitHub
-
-### **Phương pháp 1: Dùng Visual Studio (Đơn giản nhất)**
-
-#### **Bước 1: Tạo Git Repository local**
-
-1. Mở Visual Studio
-2. **View** → **Git Changes** (hoặc `Ctrl + 0, Ctrl + G`)
-3. Click nút **"Create Git Repository..."**
-4. Trong dialog:
-   - Chọn **"Existing remote"** (nếu đã tạo repo trên GitHub)
-   - Hoặc **"New remote"** (để tạo mới)
-5. Đăng nhập GitHub account
-6. Đặt tên Repository: `HoangTranManhDung_QE190132_A01`
-7. Tick **"Private"** nếu muốn repo riêng tư
-8. Click **"Create and Push"**
-
-#### **Bước 2: Commit và Push**
-```
-1. Viết commit message: "Initial commit - FU Mini Hotel System"
-2. Click "Commit All"
-3. Click "Push" để đẩy lên GitHub
